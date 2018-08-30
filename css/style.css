@@ -1,0 +1,196 @@
+body{
+    font-family: 'Questrial', sans-serif;
+}
+a {
+    color: #212529;
+}
+a:hover {
+    color: #264088;
+    text-decoration:none;
+}
+.banner-fundo{
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+}
+.bg-light {
+    background-color: #156beb!important;
+}
+.form-control{border-radius: 0;}
+.titulo-blog{
+    color: #fff
+}
+.btn-primario{
+    color: #156beb;
+    border-radius: 0;
+    background-color: #fff;
+    border-color: #156beb;
+    border: 3px solid;
+    box-shadow: 2px 2px #ffe608;
+    font-weight: bold;
+}
+.btn-primario:hover,.btn-primario:active,.btn-primario:focus{
+    color: #ea1163;
+    border-color: #ea1163;
+}
+.flex{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  /*  background-color: #ffffff78;*/
+}
+hr{
+    border-top: 1px solid transparent
+}
+
+/* logo */
+ a.navbar-brand img {
+    max-width: 60px;
+}
+
+.p-descricao{
+    padding: 30px;
+   /* background: #ffe608;*/
+    color: #ea1163;
+    margin: 15px 0;
+    font-family: 'Comfortaa';
+    font-weight: 900;
+    border-radius: 30px 0;
+ /*   background-image: url('../img/balao.png');*/
+}
+@media(min-width:992px){
+    .conteudo-central{
+        padding-right: 30px;
+    }
+}
+/* conteudo central main */
+main{
+    padding:0 15px 40px 15px;
+}
+.conteudo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*propaganda */
+.propaganda{
+ margin-bottom: 10px;
+}
+/* artigos */
+.artigos div a small{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #878888
+}
+
+/* menu lateral*/
+.titulo-secundario{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-family: 'Yulia';
+    text-align: center
+}
+/* menu redes sociais*/
+
+.navbar-nav {  
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link, 
+.navbar-light .navbar-nav .nav-link  i{
+    color: rgb(255, 255, 255);
+    font-size:15px;
+    
+
+}
+
+.navbar-light .navbar-nav .nav-link  i, 
+.navbar-rsp li a i,.navbar-rs li a i{
+    font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link  i.icon-pq{
+    font-size: 15px;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(252, 186, 49);
+   
+}
+.titulo-primario{
+    font-family: 'Yulia';
+    text-align: center;
+    color: #ea1163;
+    text-shadow: 2px 2px #ffe608;
+}
+.navbar-rs,.navbar-rsp{
+    display: block;
+    padding: 0;
+}
+.navbar-rsp{
+   
+    background: rgb(38, 64, 136);
+    text-align: center;
+    padding:10px; 
+}
+.navbar-rs li, .navbar-rsp li{
+    display: inline-block
+}
+.navbar-rsp li a i,.navbar-rs li a i {
+    color:  #fff
+}
+@media(max-width:768px){    
+   
+    .navbar-rs > li{
+        padding-right: 15px;
+    }
+  
+    .dropdown-menu{
+        border:0px;
+    }
+}
+/* menu redes categoria e artigo*/            
+.navbar-categoria, .navbar-artigo{
+    padding: 0;
+    list-style: none;
+    text-align: center
+    
+}
+
+.navbar-categoria li a, .navbar-artigo li a{
+    color: #000;
+}            
+.bg-dark {
+    background-color: #010101!important;
+}
+/* artigo */
+.titulo-artigo{
+    margin-top: 30px;
+}
+.dados-artigo{
+    margin-bottom: 15px;
+}
+/* footer, rodape*/
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #ea1163;
+    
+}
+.footer {
+    color:#fff
+}
+/*
+.footer ul {
+   padding:  0 0 0 20px
+}*/
+.copy{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #156beb;
+}
+.copy p{
+    padding: 0;
+    margin: 0;
+    color:#fff;
+}
